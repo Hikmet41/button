@@ -1,0 +1,20 @@
+﻿<Window x:Class="BUtton.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BUtton"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Name="gg">
+        <Button Content="1" Name="one" HorizontalAlignment="Left" Margin="81,55,0,0" VerticalAlignment="Top" Height="80" Width="115" Background="Red" Click="Button_Click" MouseRightButtonDown="one_MouseRightButtonDown" />
+        <Button Content="3" Name="three" HorizontalAlignment="Left" Margin="629,55,0,0" VerticalAlignment="Top" Height="80" Width="115" Background="blue" Click="three_Click" MouseRightButtonDown="three_MouseRightButtonDown"/>
+        <Button Content="4" Name="four" HorizontalAlignment="Left" Margin="81,313,0,0" VerticalAlignment="Bottom" Height="80" Width="115" Background="Green" Click="four_Click" MouseRightButtonDown="four_MouseRightButtonDown"/>
+        <Button Content="6" Name="six"  HorizontalAlignment="Right" Margin="0,313,56,0" VerticalAlignment="Bottom" Height="80" Width="115" Background="Aqua" Click="six_Click" MouseRightButtonDown="six_MouseRightButtonDown"/>
+        <Button Content="2" Name="two" HorizontalAlignment="Left" Margin="380,55,0,0" VerticalAlignment="Top" Height="80" Width="115" Background="Purple" Click="two_Click" MouseRightButtonDown="two_MouseRightButtonDown"/>
+        <Button Content="5" Name="five" HorizontalAlignment="Left" Margin="361,359,0,0" VerticalAlignment="Top" Height="70" Width="114" Background="Sienna" Click="five_Click" MouseRightButtonDown="five_MouseRightButtonDown"/>
+
+
+    </Grid>
+
+</Window>

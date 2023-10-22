@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BUtton", "BUtton\BUtton.csproj", "{BE23CD1C-D3FA-4A2C-B770-9FB80091BF07}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE23CD1C-D3FA-4A2C-B770-9FB80091BF07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE23CD1C-D3FA-4A2C-B770-9FB80091BF07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE23CD1C-D3FA-4A2C-B770-9FB80091BF07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE23CD1C-D3FA-4A2C-B770-9FB80091BF07}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ADE360EB-F4A7-4391-8199-259EACB8EC52}
+	EndGlobalSection
+EndGlobal
